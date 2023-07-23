@@ -1,65 +1,45 @@
-# Phase 1 Project
+**Microsoft Movie Studio Recommendation**
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+**Overview**
+This project aims to provide sound and profitable recommendations to Microsoft Movie Studio for entering the movie industry. The movie industry is a multi-billion-dollar industry that generates significant profits for movie studios. To make informed decisions, a careful and meticulous analysis has been conducted on movie data to answer critical questions:
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+* What genre of movies should Microsoft produce?
+* What runtime is preferred by viewers?
+* What is the average budget for well-performing movies in the chosen genre?
+*  What revenue can be expected from the investment?
+* Is there a correlation between various factors, such as revenue and audience appeal?
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
 
-## Project Overview
+**Purpose and Objectives**
+The purpose of this project is to guide Microsoft Movie Studio in making informed decisions for successful movie production. The objectives are as follows:
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+* Identify the most popular movie genres based on viewership.
+* Analyze the preferred movie runtime for better budget planning and viewer engagement.
+* Determine the average budget of well-performing movies in the chosen genre.
+* Estimate the expected revenue from the investment.
+*Identify potential correlations between factors that may affect the movie's success.
 
-### Business Problem
+**Methodology and Techniques**
+The analysis is performed using Python programming language, and the following methodologies and techniques are applied:
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+* Data Collection: Movie data from IMDb and The Numbers is collected using pandas library.
+* Data Cleaning: The collected data is cleaned and preprocessed to handle missing values, convert data types, and remove special characters.
+* Exploratory Data Analysis (EDA): Visualizations, such as bar charts and pie charts, are created to explore movie genres, runtime distribution, and other key insights.
+* Data Merging: Data from multiple sources is merged to create a comprehensive dataset for analysis.
+* Budget and Revenue Analysis: The average budget and revenue analysis is performed to determine the profitability of well-performing movies.
+* Rating Analysis: Movie ratings and the number of votes are analyzed to identify viewer preferences and correlations.
+* Data Visualization: Matplotlib and Seaborn libraries are used to create informative plots and charts for better understanding of the data.
 
-### The Data
+**Instructions to Reproduce Results**
+To reproduce the results and run the code:
 
-In the folder `zippedData` are movie datasets from:
+* Install Python: Ensure you have Python installed on your system.
+* Install Required Libraries: Install the necessary libraries (pandas, matplotlib, seaborn) by running pip install pandas matplotlib seaborn.
+* Download the Dataset: Download the IMDb datasets (imdb.title.basics.csv, imdb.title.ratings.csv) and The Numbers dataset (tn.movie_budgets.csv).
+* Place the Datasets: Place the downloaded datasets in the same directory as the Python code.
+* Run the Code: Execute the Python code to perform data analysis and generate visualizations.
+* Interpret the Results: Review the generated visualizations and analysis in the Jupyter Notebook or the interactive environment.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+**Conclusion**
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
-
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
-
-## Deliverables
-
-There are three deliverables for this project:
-
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
-
-### Key Points
-
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
-
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+The comprehensive analysis performed in this project recommends Microsoft Movie Studio to focus on producing documentary films with a runtime of 60 to 90 minutes. Documentary films have been shown to be highly rated and profitable. Additionally, they offer an excellent return on investment compared to other genres. The analysis provides valuable insights for Microsoft to enter the movie industry successfully and make data-driven decisions for movie production.
