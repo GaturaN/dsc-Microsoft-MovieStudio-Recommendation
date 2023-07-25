@@ -1,6 +1,7 @@
 **Microsoft Movie Studio Recommendation**
 
 **Overview**
+
 This project aims to provide sound and profitable recommendations to Microsoft Movie Studio for entering the movie industry. The movie industry is a multi-billion-dollar industry that generates significant profits for movie studios. To make informed decisions, a careful and meticulous analysis has been conducted on movie data to answer critical questions:
 
 * What genre of movies should Microsoft produce?
@@ -11,6 +12,7 @@ This project aims to provide sound and profitable recommendations to Microsoft M
 
 
 **Purpose and Objectives**
+
 The purpose of this project is to guide Microsoft Movie Studio in making informed decisions for successful movie production. The objectives are as follows:
 
 * Identify the most popular movie genres based on viewership.
@@ -20,6 +22,7 @@ The purpose of this project is to guide Microsoft Movie Studio in making informe
 *Identify potential correlations between factors that may affect the movie's success.
 
 **Methodology and Techniques**
+
 The analysis is performed using Python programming language, and the following methodologies and techniques are applied:
 
 * Data Collection: Movie data from IMDb and The Numbers is collected using pandas library.
@@ -31,6 +34,7 @@ The analysis is performed using Python programming language, and the following m
 * Data Visualization: Matplotlib and Seaborn libraries are used to create informative plots and charts for better understanding of the data.
 
 **Instructions to Reproduce Results**
+
 To reproduce the results and run the code:
 
 * Install Python: Ensure you have Python installed on your system.
